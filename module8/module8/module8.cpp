@@ -1,11 +1,10 @@
-﻿#include <iostream>
-#include "Book.h"
+﻿#include "Book.h"
+#include <iostream>
 
 int main() {
-	Book myBook("Crime and punishment", "Dostoevsky", 1880);
-	myBook.printInfo();
-	return 0;
+    Book book("Harry potter", "Rowling", 1979); // пример книги
 
-
-
+    book.printInfo();
+    std::cin.get();
+    return 0;
 }

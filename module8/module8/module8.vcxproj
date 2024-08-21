@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="book.cpp" />
     <ClCompile Include="module8.cpp" />
   </ItemGroup>
   <ItemGroup>
